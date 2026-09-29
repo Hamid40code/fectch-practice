@@ -1,0 +1,26 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    margin: 0%;
+}
+main{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    width: 300px; 
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px hsla(0, 0%, 5%, 0.4);
+    padding: 15px;
+}
+input,button{
+    margin-bottom: 10px;
+}
+img{
+    display: none;
+}
